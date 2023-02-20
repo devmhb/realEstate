@@ -3,12 +3,11 @@ import Image from 'next/image'
 
 import Button from './Button'
 
-import Logo from "../assests/Logo RealEstate.svg"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Logo from "../public/assests/Logo RealEstate.svg"
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between items-center min-h-[70px] text-white'>
+    <div className='flex justify-between items-center min-h-[70px]'>
         <div>
             <Image src={Logo} height={80} width={80}/>
         </div>
@@ -21,7 +20,7 @@ const Navbar = () => {
             <li>Nav Link</li>
         </ul>
         <div>
-    <Button clr="text-[black]" bgcolor="bg-[#FFAC12]">Work with us ➛ <FontAwesomeIcon icon="fa-solid fa-arrow-right" /></Button>
+    <Button clr="text-[black]" bgcolor="bg-[#FFAC12]">Work with us <span className='text-white'>➛</span> </Button>
     </div>
     </div>
     </div>
