@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: 'Lora', serif;
-}
-
 
 /* Button design */
 .rounded-tl-0 {

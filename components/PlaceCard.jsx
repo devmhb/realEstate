@@ -8,29 +8,29 @@ import size from "../public/assests/Size.svg"
 
 const PlaceCard = () => {
   return (
-    <div>
+    <div className='flex flex-col flex-wrap items-center bg-white mt-[2rem] rounded-t-3xl max-w-[30%]'>
         <div>
-        <Image  src={House1} width="100%" height="100%" alt="houseimg"/>
+        <Image  src={House1} width="90%" height="90%" alt="house img"/>
 
         </div>
         <div>
-            <h2 className='font-bold text-[1.6rem]'>Malto House</h2>
+            <h2 className='font-bold text-[1.2rem]'>Malto House</h2>
 
-           <div className='flex gap-10 text-center'>
-           <div className='text-center'>
-                <span className=' '>4</span>
-                <Image src={bed} height={20} width={20} alt="bed"/>
-            </div>
+           <div className='text-center w-[100%] flex flex-row justify-between border-t-[1px] border-black'>
+              <div className=''>
+                    <span className=' '>4</span>
+                    <Image src={bed} height={15} width={15} alt="bed"/>
+                </div>
 
-            <div>
-                <span className='text-center'>4</span>
-                <Image src={shower} height={20} width={20} alt="bed"/>
-            </div>
+                <div>
+                    <span className='text-center'>4</span>
+                    <Image src={shower} height={15} width={15} alt="bed"/>
+                </div>
 
-            <div>
-                <span className='text-center'>4</span>
-                <Image src={size} height={20} width={20} alt="bed"/>
-            </div>
+                <div>
+                    <span className='text-center'>4</span>
+                    <Image src={size} height={15} width={15} alt="bed"/>
+                </div>
 
            </div>
         </div>

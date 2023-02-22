@@ -12,8 +12,8 @@ const Navbar = () => {
             <Image src={Logo} height={80} width={80}/>
         </div>
         <div className='flex items-center gap-5'>
-        <ul className='flex justify-evenly items-center gap-5 cursor-pointer'>
-            <li>Nav Link</li>
+        <ul className='flex justify-evenly items-center gap-5 cursor-pointer text-[.8rem]'>
+            <li >Nav Link</li>
             <li>Nav Link</li>
             <li>Nav Link</li>
             <li>Nav Link</li>

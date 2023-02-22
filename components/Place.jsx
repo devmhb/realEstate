@@ -6,7 +6,7 @@ import GradientLine from './GradientLine'
 
 const Place = () => {
   return (
-    <div className='bg-[#F7F3F2] m-[auto]'>
+    <div className='bg-[#F4F4F4] m-[auto] flex flex-col justify-center items-center'>
         <GradientLine/>
         <h2 className='font-bold text-[2rem]'>Find your next place to live</h2>
         <div className='flex justify-start items-baseline border-r-3 rounded-lg'>
@@ -33,6 +33,7 @@ const Place = () => {
         </div>
 
        <div className='flex justify-around items-center flex-wrap'>
+        <PlaceCard/>
         <PlaceCard/>
         <PlaceCard/>
         <PlaceCard/>
