@@ -8,41 +8,42 @@ import Instagram from "../public/assests/instagram.png"
 
 const Footer = () => {
   return (
-    <div className=' h-[auto] bg-gradient-to-bl from-[#271800]  to-[#000] text-white px-[3rem] py-[3rem] flex flex-col justify-center items-center gap-4'>
-        <div>
-            <h2>Make your dream a <span className='text-[#FFAC12]'> reality</span></h2>
+    <div className='h-[auto] bg-gradient-to-bl from-[#271800]  to-[#000] text-white px-[3rem] py-[3rem] flex flex-col justify-center gap-4'>
+        <div className='flex justify-between pb-[1rem] border-b-[2px] border-dotted border-[#271800]'>
+            <h2 className='text-[1.8rem]'>Make your dream a <span className='text-[#FFAC12]'> reality</span></h2>
             <Button clr="text-[black]" bgcolor="bg-[#FFAC12]">Work with us <span className='text-white'>➛</span> </Button>
         </div>
-        <div className='flex items-center justify-between'>
+        <div className='flex justify-between'>
             <div>
-                <Image src={logo} height="100%" width="100%" alt="logo"/>
+                <Image src={logo} height={80} width={80} alt="logo"/>
                 <div className='flex gap-[1rem] mt-2'>
-                    <Image src={FB}  height="100%" width="100%" alt="icon"/>
+                    <Image src={FB}  height={0} width={0} alt="icon"/>
                     <Image src={Twitter}  height="100%" width="100%" alt="icon"/>
                     <Image src={Instagram}  height="100%" width="100%" alt="icon"/>
                 </div>
             </div>
-            <div >
-                <h4>Column Heading</h4>
-                <a href="">Link </a>
-                <a href="">Link</a>
-                <a href="">Link</a>
-                <a href="">Link</a>
+            <div className='flex flex-col'>
+                <h4 className='text-semibold'>Column Heading</h4>
+                <a href="" className='text-normal'>Link goes here</a>
+                <a href="">Link goes here</a>
+                <a href="">Link goes here</a>
+                <a href="">Link goes here</a>
             </div>
-            <div>
+            <div className='flex flex-col'>
                 <h4>Column Heading</h4>
-                <a href="">Link</a>
-                <a href="">Link</a>
-                <a href="">Link</a>
-                <a href="">Link</a>
+                <a href="">Link goes here</a>
+                <a href="">Link goes here</a>
+                <a href="">Link goes here</a>
+                <a href="">Link goes here</a>
             </div>
-            <div>
+            <div className='flex flex-col'>
                 <h4>Column Heading</h4>
-                <a href="">Link</a>
-                <a href="">Link</a>
-                <a href="">Link</a>
-                <a href="">Link</a>
+                <a href="">Link goes here</a>
+                <a href="">Link goes here</a>
+                <a href="">Link goes here</a>
+                <a href="">Link goes here</a>
             </div>
+            
         </div>
     </div>
   )

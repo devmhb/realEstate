@@ -5,21 +5,23 @@ import Place from '../components/Place'
 import GoodHandB from '../components/GoodHandB'
 import Review from '../components/Review'
 import Footer from '@/components/Footer'
+import contentImg from "../public/assests/content.png";
+import contentImg2 from "../public/assests/Rectangle.png";
 
 const Home = () => {
   return (
-    <div className='container flex items-center justify-center  bg-[#ffffffa9] '>
-        <div className='max-w-[90%] '>
+    <div className='container min-w-[100%] flex items-center justify-center'>
+        <div>
           <div>
             <Hero/>
           <div>
-            <GoodHand row="flex-row"/>
+            <GoodHand row="flex-row" padding="pr-[3.2rem]" contentImg={contentImg}/>
           </div>
           <div >
             <Place/>
             </div>
             <div>
-            <GoodHand row="flex-row-reverse"/>
+            <GoodHand row="flex-row-reverse" padding="pl-[3.2rem]" contentImg={contentImg2}/>
             </div>
             <div>
               <GoodHandB/>

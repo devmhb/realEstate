@@ -10,7 +10,7 @@ const Client = () => {
         <GradientLine/>
         <p className='mb-[1rem]'>“Certe, inquam, pertinax non existimant oportere exquisitis rationibus conquisitis de quo enim ipsam. Torquem detraxit hosti et quidem faciunt, ut aut.”</p>
         </div>
-    <div className='flex items-center'>
+    <div className='flex items-center gap-2'>
         <Image src={ClientImg} width={50} height={50} alt="client" />
         <div>
             <h3 className='text-black text-[.8rem] font-bold'>Lara Madriga</h3>

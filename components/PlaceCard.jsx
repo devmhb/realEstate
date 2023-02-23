@@ -8,7 +8,7 @@ import size from "../public/assests/Size.svg"
 
 const PlaceCard = () => {
   return (
-    <div className='flex flex-col flex-wrap items-center bg-white mt-[2rem] rounded-t-3xl max-w-[30%]'>
+    <div className='flex flex-col flex-wrap items-center bg-white mt-[2rem] rounded-3xl pb-[.5rem] max-w-[30%]'>
         <div>
         <Image  src={House1} width="90%" height="90%" alt="house img"/>
 
