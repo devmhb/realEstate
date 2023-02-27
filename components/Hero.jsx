@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className='w-[100%] h-[100vh] bg-gradient-to-tr from-[#000000]  to-[#00000034] relative'>
             <div className=''>
-                  <Image className='' src="/hero.png" alt="hero bg"  fill style={{objectFit: "cover", objectPosition: "center", zIndex: "-2"}} />
+                  {/* <Image className='' src="/hero.png" alt="hero bg"  fill style={{objectFit: "cover", objectPosition: "center", zIndex: "-2"}} /> */}
             </div>
           <div className='max-w-[90%] m-[auto]'>
             <div className='text-white '>

@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center min-h-[70px]'>
         <div>
-            <Image src={Logo} height={80} width={80}/>
+            <Image src={Logo} height={80} width={80} alt="logo"/>
         </div>
         <div className='flex items-center gap-5'>
         <ul className='flex justify-evenly items-center gap-5 cursor-pointer text-[.8rem]'>

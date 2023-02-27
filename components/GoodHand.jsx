@@ -7,7 +7,7 @@ const GoodHand = ({row, contentImg, padding }) => {
   return (
     <div className={` w-[100%] bg-white pt-[5rem] flex ${row} items-center justify-center m-[auto] pb-[3rem]`}>
        <div className=''>
-        <Image src={contentImg} width={"100%"} height={"100%"}/>
+        <Image src={contentImg} width={"100%"} height={"100%"} alt="contentimg"/>
        </div>
         <div className={`w-fit ${padding}`}>
             <GradientLine/>

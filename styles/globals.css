@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* Button design */
 .rounded-tl-0 {
   border-top-left-radius: 0 !important;
@@ -20,3 +19,18 @@
   border-bottom-left-radius: 0 !important;
 }
 /* Button design */
+
+/* Text length */
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+/* Text length */
+.img-resize {
+  width: 100%;
+  height: 200px;
+}
