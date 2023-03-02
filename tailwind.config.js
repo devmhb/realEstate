@@ -6,7 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        screen: "100vh",
+      },
+      zIndex: {
+        "-10": "-10",
+      },
     },
   },
   plugins: [],
-}
+};

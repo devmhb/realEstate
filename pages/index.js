@@ -9,7 +9,7 @@ import contentImg from "../public/assests/content.png";
 import contentImg2 from "../public/assests/Rectangle.png";
 
 const HomePage = ({ data }) => {
-  const placesdata = data.hits;
+  const rentdata = data.hits;
 
   return (
     <main className="flex justify-center items-center max-w-[1338px] m-[auto]">
@@ -25,7 +25,7 @@ const HomePage = ({ data }) => {
               />
             </div>
             <div>
-              <Place placesdata={placesdata} />
+              <Place placesdata={rentdata} />
             </div>
             <div>
               <GoodHand
@@ -55,6 +55,7 @@ export default HomePage;
 export async function getStaticProps() {
   const response = await fetch(
     "https://bayut.p.rapidapi.com/properties/list?locationExternalIDs=5002&purpose=for-rent&hitsPerPage=25&page=0&lang=en&sort=city-level-score&rentFrequency=monthly&categoryExternalID=4",
+
     {
       method: "GET",
       headers: {
@@ -67,6 +68,6 @@ export async function getStaticProps() {
   const data = await response.json();
 
   return {
-    props: { data }, // will be passed to the page component as props
+    props: { data },
   };
 }

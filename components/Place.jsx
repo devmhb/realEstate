@@ -6,7 +6,7 @@ import PlaceCardList from "./PlaceCardList";
 
 const Place = ({ placesdata }) => {
   return (
-    <div className="w-[100%] bg-[#F4F4F4] py-[2rem]">
+    <div className="w-[100%] bg-[#F4F4F4] py-[2rem]" id="properties">
       <div className="w-[90%] m-[auto]">
         <div className="flex flex-col items-center">
           <div>
@@ -25,7 +25,7 @@ const Place = ({ placesdata }) => {
                 <option value="" className=" b-[none] ">
                   Looking for
                 </option>
-                <option value="">Flat</option>
+                <option value="">Property</option>
               </select>
             </div>
             <div className="px-[1rem] py-[1rem] bg-[white] border-r-2">
